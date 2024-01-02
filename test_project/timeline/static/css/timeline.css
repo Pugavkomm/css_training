@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F1F1F;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: start;
+    line-height: 48px;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: start;
+    margin: 0;
+    color: white;
+}
+
+p {
+    font-size: 18;
+    text-align: start;
+    margin: 0;
+    color: white;
+}
+
+.date {
+    flex-direction: column;
+    font-size: 36px;
+    text-align: start;
+    margin: 0;
+    color: white;
+}
+
+summary {
+    color: white;
+}
+
+.container-1024 {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    flex-direction: column;
+    gap: 64px;
+
+
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    border-left: .5px solid #404040;
+
+    gap: 64px;
+    padding-left: 32px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 24px;
+    height: 24px;
+    margin-left: -44px;
+    margin-top: -12px;
+    padding: 0;
+    gap: 19.5px;
+
+}
+
+.point::before {
+    content: url("/static/svg/point.svg");
+
+}
+
+.timeline-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
